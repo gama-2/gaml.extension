@@ -1,0 +1,628 @@
+/Users/benoitgaudou/Dev/GitRepository/gama/GAMA/ummisco.gama.serialize/models/Serialization/models/Create Simulation From File.gaml
+saveSimu
+5
+<gama.core.metamodel.agent.SavedAgent>
+  <index>0</index>
+  <variables>
+    <keys>
+      <string>name</string>
+      <string>shape</string>
+      <string>location</string>
+      <string>step</string>
+      <string>average_duration</string>
+      <string>seed</string>
+      <string>rng</string>
+      <string>machine_time</string>
+      <string>time</string>
+      <string>color</string>
+      <string>cycle</string>
+      <string>total_duration</string>
+      <string>starting_date</string>
+      <string>rng_usage</string>
+      <string>duration</string>
+      <string>paused</string>
+      <string>current_date</string>
+      <string>roads_weight</string>
+      <string>road_network</string>
+      <string>slow_coeff</string>
+    </keys>
+    <data>
+      <string>Simulation 0</string>
+      <gama.core.metamodel.shape.GamaShape>
+        <geometry class="org.locationtech.jts.geom.Polygon">
+          <envelope>
+            <minx>0.0</minx>
+            <maxx>100.0</maxx>
+            <miny>0.0</miny>
+            <maxy>100.0</maxy>
+          </envelope>
+          <factory class="gama.core.common.geometry.GamaGeometryFactory">
+            <precisionModel>
+              <modelType>
+                <name>FLOATING</name>
+              </modelType>
+              <scale>0.0</scale>
+            </precisionModel>
+            <coordinateSequenceFactory class="gama.core.common.geometry.GamaCoordinateSequenceFactory"/>
+            <SRID>0</SRID>
+          </factory>
+          <SRID>0</SRID>
+          <userData class="gama.core.metamodel.shape.GamaShape$ShapeData">
+            <depth>100.0</depth>
+            <type>BOX</type>
+          </userData>
+          <shell>
+            <envelope>
+              <minx>0.0</minx>
+              <maxx>100.0</maxx>
+              <miny>0.0</miny>
+              <maxy>100.0</maxy>
+            </envelope>
+            <factory class="gama.core.common.geometry.GamaGeometryFactory" reference="../../factory"/>
+            <SRID>0</SRID>
+            <points class="gama.core.common.geometry.GamaCoordinateSequence">
+              <dimension>3</dimension>
+              <points>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>0.0</x>
+                  <y>100.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>100.0</x>
+                  <y>100.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>100.0</x>
+                  <y>0.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>0.0</x>
+                  <y>0.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>0.0</x>
+                  <y>100.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+              </points>
+            </points>
+          </shell>
+          <holes/>
+        </geometry>
+      </gama.core.metamodel.shape.GamaShape>
+      <gama.core.metamodel.shape.GamaPoint>
+        <x>50.0</x>
+        <y>50.0</y>
+        <z>0.0</z>
+      </gama.core.metamodel.shape.GamaPoint>
+      <double>1.0</double>
+      <string>3.6</string>
+      <double>0.21880739866477794</double>
+      <string>mersenne</string>
+      <double>1.651718230551E12</double>
+      <double>5.0</double>
+      <gama.core.util.GamaColor>
+        <r>74.0</r>
+        <g>97.0</g>
+        <b>144.0</b>
+        <a>255.0</a>
+      </gama.core.util.GamaColor>
+      <int>5</int>
+      <string>18</string>
+      <gama.core.util.GamaDate>
+        <internal class="offset-date-time">1970-01-01T02:00:00+02:00</internal>
+      </gama.core.util.GamaDate>
+      <int>28</int>
+      <string>0</string>
+      <boolean>true</boolean>
+      <gama.core.util.GamaDate>
+        <internal class="offset-date-time">1970-01-01T02:00:05+02:00</internal>
+      </gama.core.util.GamaDate>
+      <gama.core.util.GamaMap>
+        <keysType class="gaml.core.types.GamaAgentType">
+          <GamaType>road</GamaType>
+        </keysType>
+        <dataType class="gaml.core.types.GamaFloatType">
+          <GamaType>float</GamaType>
+        </dataType>
+        <valuesMapReducer>
+          <entry>
+            <gama.core.metamodel.agent.MinimalAgent>
+              <agentReference>
+                <attributeValue>
+                  <species>
+                    <string>road</string>
+                  </species>
+                  <index>
+                    <int>3</int>
+                  </index>
+                </attributeValue>
+              </agentReference>
+            </gama.core.metamodel.agent.MinimalAgent>
+            <double>40.0</double>
+          </entry>
+          <entry>
+            <gama.core.metamodel.agent.MinimalAgent>
+              <agentReference>
+                <attributeValue>
+                  <species>
+                    <string>road</string>
+                  </species>
+                  <index>
+                    <int>0</int>
+                  </index>
+                </attributeValue>
+              </agentReference>
+            </gama.core.metamodel.agent.MinimalAgent>
+            <double>240.0</double>
+          </entry>
+          <entry>
+            <gama.core.metamodel.agent.MinimalAgent>
+              <agentReference>
+                <attributeValue>
+                  <species>
+                    <string>road</string>
+                  </species>
+                  <index>
+                    <int>1</int>
+                  </index>
+                </attributeValue>
+              </agentReference>
+            </gama.core.metamodel.agent.MinimalAgent>
+            <double>40.0</double>
+          </entry>
+          <entry>
+            <gama.core.metamodel.agent.MinimalAgent>
+              <agentReference>
+                <attributeValue>
+                  <species>
+                    <string>road</string>
+                  </species>
+                  <index>
+                    <int>2</int>
+                  </index>
+                </attributeValue>
+              </agentReference>
+            </gama.core.metamodel.agent.MinimalAgent>
+            <double>80.0</double>
+          </entry>
+        </valuesMapReducer>
+      </gama.core.util.GamaMap>
+      <gama.core.metamodel.topology.graph.GamaSpatialGraph>
+        <nodeTypeGraphReducer class="gaml.core.types.GamaGeometryType">
+          <GamaType>geometry</GamaType>
+        </nodeTypeGraphReducer>
+        <edgeTypeGraphReducer class="gaml.core.types.GamaAgentType" reference="../../gama.core.util.GamaMap/keysType"/>
+        <edgesGraphReducer class="gama.core.util.GamaList">
+          <valuesListReducer>
+            <gama.core.metamodel.agent.MinimalAgent reference="../../../../gama.core.util.GamaMap/valuesMapReducer/entry[2]/gama.core.metamodel.agent.MinimalAgent"/>
+            <gama.core.metamodel.agent.MinimalAgent reference="../../../../gama.core.util.GamaMap/valuesMapReducer/entry[3]/gama.core.metamodel.agent.MinimalAgent"/>
+            <gama.core.metamodel.agent.MinimalAgent reference="../../../../gama.core.util.GamaMap/valuesMapReducer/entry[4]/gama.core.metamodel.agent.MinimalAgent"/>
+            <gama.core.metamodel.agent.MinimalAgent reference="../../../../gama.core.util.GamaMap/valuesMapReducer/entry/gama.core.metamodel.agent.MinimalAgent"/>
+          </valuesListReducer>
+          <contentTypeListReducer class="gaml.core.types.GamaAgentType" reference="../../../gama.core.util.GamaMap/keysType"/>
+        </edgesGraphReducer>
+        <edgesWeightsGraphReducer class="gama.core.util.GamaMap">
+          <keysType class="gaml.core.types.GamaAgentType" reference="../../../gama.core.util.GamaMap/keysType"/>
+          <dataType class="gaml.core.types.GamaPairType">
+            <GamaType>pair</GamaType>
+          </dataType>
+          <valuesMapReducer>
+            <entry>
+              <gama.core.metamodel.agent.MinimalAgent reference="../../../../../gama.core.util.GamaMap/valuesMapReducer/entry/gama.core.metamodel.agent.MinimalAgent"/>
+              <double>40.0</double>
+            </entry>
+            <entry>
+              <gama.core.metamodel.agent.MinimalAgent reference="../../../../../gama.core.util.GamaMap/valuesMapReducer/entry[2]/gama.core.metamodel.agent.MinimalAgent"/>
+              <double>80.0</double>
+            </entry>
+            <entry>
+              <gama.core.metamodel.agent.MinimalAgent reference="../../../../../gama.core.util.GamaMap/valuesMapReducer/entry[3]/gama.core.metamodel.agent.MinimalAgent"/>
+              <double>40.0</double>
+            </entry>
+            <entry>
+              <gama.core.metamodel.agent.MinimalAgent reference="../../../../../gama.core.util.GamaMap/valuesMapReducer/entry[4]/gama.core.metamodel.agent.MinimalAgent"/>
+              <double>80.0</double>
+            </entry>
+          </valuesMapReducer>
+        </edgesWeightsGraphReducer>
+        <spatial>true</spatial>
+        <directed>false</directed>
+      </gama.core.metamodel.topology.graph.GamaSpatialGraph>
+      <double>3.0</double>
+    </data>
+  </variables>
+  <innerPopulations>
+    <keysType class="gaml.core.types.GamaNoType">
+      <GamaType>unknown</GamaType>
+    </keysType>
+    <dataType class="gaml.core.types.GamaNoType" reference="../keysType"/>
+    <valuesMapReducer>
+      <entry>
+        <string>road</string>
+        <list>
+          <gama.core.metamodel.agent.SavedAgent>
+            <index>0</index>
+            <variables>
+              <keys>
+                <string>name</string>
+                <string>shape</string>
+                <string>location</string>
+                <string>slow</string>
+              </keys>
+              <data>
+                <string>road0</string>
+                <gama.core.metamodel.shape.GamaShape>
+                  <geometry class="org.locationtech.jts.geom.LineString">
+                    <factory class="gama.core.common.geometry.GamaGeometryFactory" reference="../../../../../../../../../../variables/data/gama.core.metamodel.shape.GamaShape/geometry/factory"/>
+                    <SRID>0</SRID>
+                    <points class="gama.core.common.geometry.GamaCoordinateSequence">
+                      <dimension>3</dimension>
+                      <points>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>10.0</x>
+                          <y>50.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>90.0</x>
+                          <y>50.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                      </points>
+                    </points>
+                  </geometry>
+                </gama.core.metamodel.shape.GamaShape>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>50.0</x>
+                  <y>50.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <boolean>true</boolean>
+              </data>
+            </variables>
+          </gama.core.metamodel.agent.SavedAgent>
+          <gama.core.metamodel.agent.SavedAgent>
+            <index>1</index>
+            <variables>
+              <keys>
+                <string>name</string>
+                <string>shape</string>
+                <string>location</string>
+                <string>slow</string>
+              </keys>
+              <data>
+                <string>road1</string>
+                <gama.core.metamodel.shape.GamaShape>
+                  <geometry class="org.locationtech.jts.geom.LineString">
+                    <factory class="gama.core.common.geometry.GamaGeometryFactory" reference="../../../../../../../../../../variables/data/gama.core.metamodel.shape.GamaShape/geometry/factory"/>
+                    <SRID>0</SRID>
+                    <points class="gama.core.common.geometry.GamaCoordinateSequence">
+                      <dimension>3</dimension>
+                      <points>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>10.0</x>
+                          <y>50.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>10.0</x>
+                          <y>10.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                      </points>
+                    </points>
+                  </geometry>
+                </gama.core.metamodel.shape.GamaShape>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>10.0</x>
+                  <y>30.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <boolean>false</boolean>
+              </data>
+            </variables>
+          </gama.core.metamodel.agent.SavedAgent>
+          <gama.core.metamodel.agent.SavedAgent>
+            <index>2</index>
+            <variables>
+              <keys>
+                <string>name</string>
+                <string>shape</string>
+                <string>location</string>
+                <string>slow</string>
+              </keys>
+              <data>
+                <string>road2</string>
+                <gama.core.metamodel.shape.GamaShape>
+                  <geometry class="org.locationtech.jts.geom.LineString">
+                    <factory class="gama.core.common.geometry.GamaGeometryFactory" reference="../../../../../../../../../../variables/data/gama.core.metamodel.shape.GamaShape/geometry/factory"/>
+                    <SRID>0</SRID>
+                    <points class="gama.core.common.geometry.GamaCoordinateSequence">
+                      <dimension>3</dimension>
+                      <points>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>10.0</x>
+                          <y>10.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>90.0</x>
+                          <y>10.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                      </points>
+                    </points>
+                  </geometry>
+                </gama.core.metamodel.shape.GamaShape>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>50.0</x>
+                  <y>10.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <boolean>false</boolean>
+              </data>
+            </variables>
+          </gama.core.metamodel.agent.SavedAgent>
+          <gama.core.metamodel.agent.SavedAgent>
+            <index>3</index>
+            <variables>
+              <keys>
+                <string>name</string>
+                <string>shape</string>
+                <string>location</string>
+                <string>slow</string>
+              </keys>
+              <data>
+                <string>road3</string>
+                <gama.core.metamodel.shape.GamaShape>
+                  <geometry class="org.locationtech.jts.geom.LineString">
+                    <factory class="gama.core.common.geometry.GamaGeometryFactory" reference="../../../../../../../../../../variables/data/gama.core.metamodel.shape.GamaShape/geometry/factory"/>
+                    <SRID>0</SRID>
+                    <points class="gama.core.common.geometry.GamaCoordinateSequence">
+                      <dimension>3</dimension>
+                      <points>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>90.0</x>
+                          <y>10.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                        <gama.core.metamodel.shape.GamaPoint>
+                          <x>90.0</x>
+                          <y>50.0</y>
+                          <z>0.0</z>
+                        </gama.core.metamodel.shape.GamaPoint>
+                      </points>
+                    </points>
+                  </geometry>
+                </gama.core.metamodel.shape.GamaShape>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>90.0</x>
+                  <y>30.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <boolean>false</boolean>
+              </data>
+            </variables>
+          </gama.core.metamodel.agent.SavedAgent>
+        </list>
+      </entry>
+      <entry>
+        <string>people</string>
+        <list>
+          <gama.core.metamodel.agent.SavedAgent>
+            <index>0</index>
+            <variables>
+              <keys>
+                <string>name</string>
+                <string>shape</string>
+                <string>current_path</string>
+                <string>real_speed</string>
+                <string>destination</string>
+                <string>location</string>
+                <string>heading</string>
+                <string>speed</string>
+                <string>current_edge</string>
+                <string>roads_knowledge</string>
+                <string>the_target</string>
+                <string>color</string>
+                <string>size</string>
+                <string>path_to_follow</string>
+              </keys>
+              <data>
+                <string>people0</string>
+                <gama.core.metamodel.shape.GamaShape>
+                  <geometry class="org.locationtech.jts.geom.Point">
+                    <factory class="gama.core.common.geometry.GamaGeometryFactory" reference="../../../../../../../../../../variables/data/gama.core.metamodel.shape.GamaShape/geometry/factory"/>
+                    <SRID>0</SRID>
+                    <coordinates class="gama.core.common.geometry.UniqueCoordinateSequence">
+                      <point>
+                        <x>10.0</x>
+                        <y>25.0</y>
+                        <z>0.0</z>
+                      </point>
+                      <dimension>3</dimension>
+                    </coordinates>
+                  </geometry>
+                  <attributes class="gama.core.util.GamaMap">
+                    <keysType class="gaml.core.types.GamaStringType">
+                      <GamaType>string</GamaType>
+                    </keysType>
+                    <dataType class="gaml.core.types.GamaNoType" reference="../../../../../../../../../keysType"/>
+                    <valuesMapReducer>
+                      <entry>
+                        <string>index_on_path_segment</string>
+                        <int>1</int>
+                      </entry>
+                      <entry>
+                        <string>index_on_path</string>
+                        <int>0</int>
+                      </entry>
+                    </valuesMapReducer>
+                  </attributes>
+                </gama.core.metamodel.shape.GamaShape>
+                <gama.core.util.path.GamaSpatialPath>
+                  <g class="gama.core.metamodel.topology.graph.GamaSpatialGraph" reference="../../../../../../../../../variables/data/gama.core.metamodel.topology.graph.GamaSpatialGraph"/>
+                  <start class="gama.core.metamodel.shape.GamaPoint">
+                    <x>10.0</x>
+                    <y>25.0</y>
+                    <z>0.0</z>
+                  </start>
+                  <target class="gama.core.metamodel.shape.GamaPoint">
+                    <x>90.0</x>
+                    <y>50.0</y>
+                    <z>0.0</z>
+                  </target>
+                  <edges class="gama.core.util.GamaList">
+                    <valuesListReducer>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[3]/gama.core.metamodel.agent.MinimalAgent"/>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[4]/gama.core.metamodel.agent.MinimalAgent"/>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry/gama.core.metamodel.agent.MinimalAgent"/>
+                    </valuesListReducer>
+                    <contentTypeListReducer class="gaml.core.types.GamaNoType" reference="../../../../../../../../../keysType"/>
+                  </edges>
+                </gama.core.util.path.GamaSpatialPath>
+                <double>5.0</double>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>10.0</x>
+                  <y>24.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <gama.core.metamodel.shape.GamaPoint reference="../gama.core.metamodel.shape.GamaShape/geometry/coordinates/point"/>
+                <double>270.0</double>
+                <double>1.0</double>
+                <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[3]/gama.core.metamodel.agent.MinimalAgent"/>
+                <gama.core.util.GamaMap reference="../../../../../../../../variables/data/gama.core.util.GamaMap"/>
+                <gama.core.metamodel.shape.GamaPoint reference="../gama.core.util.path.GamaSpatialPath/target"/>
+                <gama.core.util.GamaColor_-NamedGamaColor>
+                  <r>0.0</r>
+                  <g>0.0</g>
+                  <b>255.0</b>
+                  <a>255.0</a>
+                </gama.core.util.GamaColor_-NamedGamaColor>
+                <double>2.0</double>
+                <gama.core.util.path.GamaSpatialPath reference="../gama.core.util.path.GamaSpatialPath"/>
+              </data>
+            </variables>
+          </gama.core.metamodel.agent.SavedAgent>
+          <gama.core.metamodel.agent.SavedAgent>
+            <index>1</index>
+            <variables>
+              <keys>
+                <string>name</string>
+                <string>shape</string>
+                <string>current_path</string>
+                <string>real_speed</string>
+                <string>destination</string>
+                <string>location</string>
+                <string>heading</string>
+                <string>speed</string>
+                <string>current_edge</string>
+                <string>roads_knowledge</string>
+                <string>the_target</string>
+                <string>color</string>
+                <string>size</string>
+                <string>path_to_follow</string>
+              </keys>
+              <data>
+                <string>people1</string>
+                <gama.core.metamodel.shape.GamaShape>
+                  <geometry class="org.locationtech.jts.geom.Point">
+                    <factory class="gama.core.common.geometry.GamaGeometryFactory" reference="../../../../../../../../../../variables/data/gama.core.metamodel.shape.GamaShape/geometry/factory"/>
+                    <SRID>0</SRID>
+                    <coordinates class="gama.core.common.geometry.UniqueCoordinateSequence">
+                      <point>
+                        <x>18.333333333333332</x>
+                        <y>50.0</y>
+                        <z>0.0</z>
+                      </point>
+                      <dimension>3</dimension>
+                    </coordinates>
+                  </geometry>
+                  <attributes class="gama.core.util.GamaMap">
+                    <keysType class="gaml.core.types.GamaStringType" reference="../../../../../../gama.core.metamodel.agent.SavedAgent/variables/data/gama.core.metamodel.shape.GamaShape/attributes/keysType"/>
+                    <dataType class="gaml.core.types.GamaNoType" reference="../../../../../../../../../keysType"/>
+                    <valuesMapReducer>
+                      <entry>
+                        <string>index_on_path_segment</string>
+                        <int>1</int>
+                      </entry>
+                      <entry>
+                        <string>index_on_path</string>
+                        <int>0</int>
+                      </entry>
+                    </valuesMapReducer>
+                  </attributes>
+                </gama.core.metamodel.shape.GamaShape>
+                <gama.core.util.path.GamaSpatialPath>
+                  <g class="gama.core.metamodel.topology.graph.GamaSpatialGraph" reference="../../../../../../../../../variables/data/gama.core.metamodel.topology.graph.GamaSpatialGraph"/>
+                  <start class="gama.core.metamodel.shape.GamaPoint">
+                    <x>18.333333333333332</x>
+                    <y>50.0</y>
+                    <z>0.0</z>
+                  </start>
+                  <target class="gama.core.metamodel.shape.GamaPoint">
+                    <x>90.0</x>
+                    <y>50.0</y>
+                    <z>0.0</z>
+                  </target>
+                  <edges class="gama.core.util.GamaList">
+                    <valuesListReducer>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[2]/gama.core.metamodel.agent.MinimalAgent"/>
+                    </valuesListReducer>
+                    <contentTypeListReducer class="gaml.core.types.GamaNoType" reference="../../../../../../../../../keysType"/>
+                  </edges>
+                </gama.core.util.path.GamaSpatialPath>
+                <double>1.6666666666666667</double>
+                <gama.core.metamodel.shape.GamaPoint>
+                  <x>19.333333333333332</x>
+                  <y>50.0</y>
+                  <z>0.0</z>
+                </gama.core.metamodel.shape.GamaPoint>
+                <gama.core.metamodel.shape.GamaPoint reference="../gama.core.metamodel.shape.GamaShape/geometry/coordinates/point"/>
+                <double>0.0</double>
+                <double>1.0</double>
+                <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[2]/gama.core.metamodel.agent.MinimalAgent"/>
+                <gama.core.util.GamaMap>
+                  <keysType class="gaml.core.types.GamaAgentType" reference="../../../../../../../../../variables/data/gama.core.util.GamaMap/keysType"/>
+                  <dataType class="gaml.core.types.GamaFloatType" reference="../../../../../../../../../variables/data/gama.core.util.GamaMap/dataType"/>
+                  <valuesMapReducer>
+                    <entry>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry/gama.core.metamodel.agent.MinimalAgent"/>
+                      <double>40.0</double>
+                    </entry>
+                    <entry>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[2]/gama.core.metamodel.agent.MinimalAgent"/>
+                      <double>80.0</double>
+                    </entry>
+                    <entry>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[3]/gama.core.metamodel.agent.MinimalAgent"/>
+                      <double>40.0</double>
+                    </entry>
+                    <entry>
+                      <gama.core.metamodel.agent.MinimalAgent reference="../../../../../../../../../../../variables/data/gama.core.util.GamaMap/valuesMapReducer/entry[4]/gama.core.metamodel.agent.MinimalAgent"/>
+                      <double>80.0</double>
+                    </entry>
+                  </valuesMapReducer>
+                </gama.core.util.GamaMap>
+                <gama.core.metamodel.shape.GamaPoint reference="../gama.core.util.path.GamaSpatialPath/target"/>
+                <gama.core.util.GamaColor_-NamedGamaColor>
+                  <r>255.0</r>
+                  <g>255.0</g>
+                  <b>0.0</b>
+                  <a>255.0</a>
+                </gama.core.util.GamaColor_-NamedGamaColor>
+                <double>1.0</double>
+                <gama.core.util.path.GamaSpatialPath reference="../gama.core.util.path.GamaSpatialPath"/>
+              </data>
+            </variables>
+          </gama.core.metamodel.agent.SavedAgent>
+        </list>
+      </entry>
+    </valuesMapReducer>
+  </innerPopulations>
+</gama.core.metamodel.agent.SavedAgent>
